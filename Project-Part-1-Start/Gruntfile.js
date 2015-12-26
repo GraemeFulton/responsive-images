@@ -16,11 +16,11 @@ module.exports = function(grunt) {
           sizes: [{
             /*
             Change these:
-            
-            width: ,
-            suffix: ,
-            quality:
             */
+            width: 800,
+            suffix: '',
+            quality:55,
+            rename:false
           }]
         },
 
@@ -64,7 +64,7 @@ module.exports = function(grunt) {
       },
     },
   });
-  
+
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
