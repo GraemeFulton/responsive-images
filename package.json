@@ -1,0 +1,27 @@
+{
+  "name": "responsive-images",
+  "version": "1.0.0",
+  "description": "Responsive image setup using grunt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GraemeFulton/responsive-images.git"
+  },
+  "keywords": [
+    "grunt",
+    "imagemagick",
+    "imageoptim"
+  ],
+  "author": "Graeme Fulton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GraemeFulton/responsive-images/issues"
+  },
+  "homepage": "https://github.com/GraemeFulton/responsive-images#readme",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  }
+}
