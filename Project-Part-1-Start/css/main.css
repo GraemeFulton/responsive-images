@@ -1,15 +1,5 @@
 /*
-
 Your styles go here!
-
-Hint! You'll probably want to start by styling:
-  * <body>
-  * <article>
-  * <h1>
-  * <img>
-
-I've left some boilerplate below for you.
-
 */
 
 body {
@@ -19,12 +9,31 @@ body {
 article {
   width:50em;
   margin: 0 auto;
+  border-bottom: 1px solid #ddd;
+}
+footer{
+  width:50em;
+  margin: 0 auto;
 }
 
 h1 {
 
 }
 
+figure {
+  max-width:100%;
+}
+
 img {
   max-width:100%;
+}
+
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 1.5em;
 }
