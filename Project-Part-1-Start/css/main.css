@@ -3,7 +3,8 @@ Your styles go here!
 */
 
 body {
-
+  font-family: sans-serif;
+  margin: 2em;
 }
 
 article {
